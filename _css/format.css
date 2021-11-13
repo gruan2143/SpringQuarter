@@ -1,0 +1,22 @@
+body {
+background: #C0CCC1;
+padding: 20px;
+}
+h2 {
+font-size: x-large;
+text-transform: lowercase;
+text-decoration: underline;
+color: yellow;
+} 
+
+.header {
+    background-color: rgb(58, 128, 0);
+    color: rgb(2, 0, 0);
+    padding: 15px;
+	width: 35%;
+	text-align: center;
+}
+.selector, .declaration, .property, .value, .rule {
+font-family: "Courier New", Courier, monospace;
+}
+

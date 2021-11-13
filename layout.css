@@ -1,0 +1,112 @@
+/* CSS Formatting Document */
+
+body {
+	color: #000000;
+	background-color: #C0CCC1;
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+	border-style: solid;
+	border-width: thick;
+	padding-left: 15px;
+	margin: 5pt;
+}
+a:visited{
+	color: #10a7a5;
+}
+a:link{
+	color: #084048;
+}
+a:hover{
+	color: #CC3300;
+}
+dl dt{
+	color: #CC3300;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 5pt;
+}
+dl dd{
+	margin-right: 50px;
+	padding-bottom: 25px;
+}
+
+header{
+	padding-left: 250px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-family: Garamond, serif;
+}
+header h1, h2{
+	font-family: Garmond, serif;
+}
+header h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+header h2{
+	text-align: center;
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+nav{
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+	padding: 10px 20px 10px 20px;
+	font-size: 1.2em;
+}
+nav li{
+	padding: 0.2em 1em 0.2em 1em;
+	border-right-color: #084048;
+	border-width: 0 thin 0 0;
+	border-style: solid;
+	display: inline;
+}
+section#content{
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+#content h1 h2 h3 h4 h5 h6{
+	font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+}
+#content h1 {
+	font-size: 1.5em;
+}
+#content h2 {
+	font-size: 1.3em;
+}
+#content h3 {
+	font-size: 1.1em;
+}
+#bigger{
+	font-size: 1.1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+#content ol{
+	list-style: upper-roman;
+}
+#content li ol{
+	list-style: lower-alpha;
+    padding-bottom: 0.8em;
+}
+footer{
+	background-color: #A1D1D1;
+	padding: 15px;
+}
+footer p{
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.1em;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+strong {
+	font-weight: bold;
+}

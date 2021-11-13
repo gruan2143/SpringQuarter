@@ -1,0 +1,12 @@
+nav ol li{
+    background-image: url(../images/nav_background.gif);
+    padding:0;
+    margin:0;
+    display:block;
+    width:136px;
+    height:65px;
+}
+nav ol li:hover{
+    background-image: url(../images/nav_background_flip.gif);
+    background-position:right 5px; 
+}

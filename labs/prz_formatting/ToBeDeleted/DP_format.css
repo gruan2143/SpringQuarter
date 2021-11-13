@@ -1,0 +1,125 @@
+/* CSS Formatting Document */
+
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+    margin: 5pt;
+    border-style: solid;
+    border-width: thick;
+}
+
+a:link {
+    color: #084;
+    
+}
+a:visited{
+    color: #10A7A5;
+}
+a:hover{
+    color: #C30;
+}
+
+dl dt{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #C30;
+    margin: 5pt;
+}
+
+dl dd{
+    margin-right: 50px;
+    padding-bottom: 25px;
+}
+header{
+    background-image: url(../images/przlogo.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 250px;
+
+}
+header h1, h2{
+    font-family: Garmond, serif;
+
+    
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+header h2{
+    font-size: 1.6em;
+    font-style: italic;
+    text-align: center;
+    
+}
+nav  {
+    font-family: Gil Sans, Arial, Helvetica,sans-serif;
+    font-size: 1.2em;
+    padding: 10px 20px 10px 20px;
+    
+}
+nav li{
+
+    display: inline;
+    padding: 0.2em 1em 0.2em 1em;
+    border-style: solid;
+    border-color: #084;
+    border-width: 0 thin 0 0;
+}
+
+
+section#content{
+    padding: 20px;
+    background-image: url(../images/prz_watermark.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+#content h1, h2, h3, h4, h5, h6{
+    font-family: Gil sans, Arial, Helvetica,sans-serif
+}
+#content h1{
+    font-size: 1.5em;
+}
+#content h2{
+    font-size: 1.3em;
+}
+#content h3{
+    font-size: 1.1em;
+}
+.bigger li{
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+#content ol{
+    list-style: upper-roman;
+}
+#content li ol{
+    list-style: lower-alpha;
+}
+footer{
+    background-color: #A1D1D1;
+    padding: 15px;
+}
+footer p{
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1em;
+    padding: 0;
+    margin: 0;
+}
+
+/*TESTING*/
+nav ol{
+    padding: 0;
+}
+
+
+
+
+
+
+

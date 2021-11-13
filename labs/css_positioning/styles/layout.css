@@ -1,0 +1,14 @@
+body {
+    min-width: 1000px;
+    position:relative;
+}
+nav {
+    width: 150px;
+    float: right;
+}
+nav li{
+    display: block;
+ }
+#content {
+    margin:10px 50px 10px 50px;
+}

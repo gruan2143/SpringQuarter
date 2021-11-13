@@ -1,0 +1,43 @@
+
+/* Add your styles below this */
+
+.wrapper {
+	width: 50%;
+}
+
+.header {
+	background-color: rgb(58, 128, 0);
+	color: rgb(2, 0, 0);
+	padding: 30px;
+}
+
+.content {
+	border: 1px solid black;
+	padding: 30px;
+	margin: 10px 0;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+body {
+	background: #c0ccc1;
+	padding: 15px;
+	font-family: "Times", Courier, Georgia;
+}
+.box {
+	background: rgb(230, 245, 19);
+	padding: 20px;
+}
+h1{
+	font-weight: bold;
+	color: #044b4b;
+	font-size: 50px;
+	
+}
+p{
+	font-size: 18px;
+	color: black;
+}
+a {
+	color: #3316d4;
+}
